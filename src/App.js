@@ -2,18 +2,18 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import NavBar from "./Components/NavBar/NavBar";
-import LandingPage from "./Components/LandingPage/LandingPage";
 import LoginPage from './Containers/LoginPage/LoginPage';
-import RegisterPage from './Containers/RegisterPage/RegisterPage'
+import StudentRegisterPage from './Containers/StudentRegisterPage/RegisterPage'
+import FacultyRegisterPage from './Containers/FacultyRegisterPage/RegisterPage'
 
 function App() {
     return (
         <>
             <NavBar/>
             <Switch>
-                <Route path={'/login'} component={LoginPage} />
-                <Route exact path={'/'} component={LandingPage} />
-                <Route path={'/register'} component={RegisterPage} />
+                <Route path={'/'} exact component={LoginPage} />
+                <Route path={'/studentregister'} component={StudentRegisterPage} />
+                <Route path={'/facultyregister'} component={FacultyRegisterPage} />
             </Switch>
         </>
     );

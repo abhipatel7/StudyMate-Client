@@ -28,24 +28,33 @@ hr{
     color: #969696;
 }
 
-.loginBtn {
-    width: 7rem;
-    padding: 5px;
-    margin: 10px 0 10px 10px ;
-    border: 0;
-    font-size: 1.2rem;
-    text-decoration: underline;
-    color: #000;
-    font-weight: 300;
+/*.studentBtn {*/
+/*    width: 7rem;*/
+/*    padding: 5px;*/
+/*    margin: 10px 0 10px 10px ;*/
+/*    border: 0;*/
+/*    font-size: 1.2rem;*/
+/*    text-decoration: underline;*/
+/*    color: #000;*/
+/*    font-weight: 300;*/
+/*}*/
+
+/*.logoutBtn {*/
+/*    width: 7rem;*/
+/*    padding: 5px;*/
+/*    margin: 10px 10px 10px 0 ;*/
+/*    font-size: 1rem;*/
+/*    border-radius: 3px;*/
+/*    border: 2px solid #0077FF;*/
+/*    color: #FFFFFF;*/
+/*    background: #0077FF;*/
+/*}*/
+
+.student{
+    color: #0077FF;
+    margin-right: 40px;
 }
 
-.registerBtn {
-    width: 7rem;
-    padding: 5px;
-    margin: 10px 10px 10px 0 ;
-    font-size: 1rem;
-    border-radius: 3px;
-    border: 2px solid #0077FF;
-    color: #FFFFFF;
-    background: #0077FF;
+.logout{
+    color: #FF0000;
 }

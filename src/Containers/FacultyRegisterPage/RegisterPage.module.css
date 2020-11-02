@@ -45,40 +45,16 @@ label {
 }
 
 select {
-    margin-top: 5px;
-    width: 80%;
-    padding: 9px;
+    width: 100%;
+    padding: 10px;
     border-radius: 3px;
 }
 
-.btn {
-    margin-top: 5px;
-    background-color: #E5E5E5;
-    text-align: center;
-    border: 1px solid #707070;
-    border-radius: 15px;
-    padding: 5px;
-    width: 5rem;
-    margin-left: 10px;
-}
-
-.btn:active, .btn:hover, .btn:focus {
-    background-color: #0077FF;
-    color: #FFF;
-}
-
-.btnGrp{
-    position: fixed;
-    left: 52%;
-}
-
 .submitBtn {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    width: 15rem;
+    width: 8rem;
     padding: 5px;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    margin: 10px;
     border: 2px solid #FF8000;
     color: #FFFFFF;
     background: #FF8000;

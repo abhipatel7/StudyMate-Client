@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.form_container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form_title {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+h1 {
+    left: 40%;
+    position: fixed;
+    top: 20%;
+ }
+
+.column_3 {
+    column-count: 3;
+    column-gap: 15px;
+}
+
+.column_2 {
+    column-count: 2;
+    column-gap: 15px;
+}
+
+.label {
+    text-align: left;
+}
+
+label {
+    text-align: left;
+    font-weight: 600;
+}
+
+
+/*.btn {*/
+/*    margin-top: 5px;*/
+/*    background-color: #E5E5E5;*/
+/*    text-align: center;*/
+/*    border: 1px solid #707070;*/
+/*    border-radius: 15px;*/
+/*    padding: 5px;*/
+/*    width: 5rem;*/
+/*    margin-left: 10px;*/
+/*}*/
+
+/*.btn:active, .btn:hover, .btn:focus {*/
+/*    background-color: #0077FF;*/
+/*    color: #FFF;*/
+/*}*/
+
+/*.btnGrp{*/
+/*    position: fixed;*/
+/*    left: 52%;*/
+/*}*/
+
+.submitBtn {
+    width: 8rem;
+    padding: 5px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border: 2px solid #FF8000;
+    color: #FFFFFF;
+    background: #FF8000;
+}

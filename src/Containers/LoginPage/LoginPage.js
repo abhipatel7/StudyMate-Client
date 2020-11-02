@@ -1,12 +1,13 @@
 import React from "react";
 import classes from "./LoginPage.module.css"
-
+// import StudyMate from "../../Components/NavBar/Logo/StudyMate.svg";
+import StudyMateAdmin from '../../Components/NavBar/Logo/Group 114.png'
 const LoginPage = (props) => {
     return (
         <div className={classes.form_container}>
             <div>
-                <div className={classes.form_title}>
-                    Enter Your Credentials
+                <div>
+                    <img src={StudyMateAdmin} alt="Study Mate Logo"/>
                 </div>
             </div>
             <form>

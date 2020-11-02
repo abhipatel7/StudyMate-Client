@@ -2,10 +2,11 @@ import React from "react";
 
 import classes from './RegisterPage.module.css';
 
+
 const RegisterPage = (props) => {
     return (
         <div>
-            <h1 className={classes.form_title}>Enter Your Correct Details Below</h1>
+            <h1 className={classes.form_title}>Enter Correct Student Details</h1>
             <form className={classes.form_container}>
                 <div className={classes.column_3}>
                     <div><input type="text" placeholder={"First Name"}/>
@@ -30,8 +31,9 @@ const RegisterPage = (props) => {
                 </div>
                 <div className={classes.column_2}>
                     <div className={classes.label}>
-                        <label htmlFor="academicYear">Academic Year</label><br/>
+                        {/*<label htmlFor="academicYear">Academic Year</label><br/>*/}
                         <select id="academicYear">
+                            <option>Academic Year</option>
                             <option value="2017">2017</option>
                             <option value="2018">2018</option>
                             <option value="2019">2019</option>
@@ -39,19 +41,14 @@ const RegisterPage = (props) => {
                         </select>
                     </div>
                     <div className={classes.label}>
-                        <label htmlFor="userType">You Are A</label>
-                        <div className={classes.btnGrp}>
-                            <button className={classes.btn} type="button" value={"Student"} name={"userType"}>Student
-                            </button>
-                            <button className={classes.btn} type="button" value={"Student"} name={"userType"}>Faculty
-                            </button>
-                        </div>
+                        <input type="text" placeholder={"Enrollment Number"}/>
                     </div>
                 </div>
+                <div>
+                    <button className={classes.submitBtn} type={"submit"}>Submit →</button>
+                </div>
             </form>
-            <div>
-                <button className={classes.submitBtn} type={"submit"}>Submit →</button>
-            </div>
+
         </div>
     );
 };

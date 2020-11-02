@@ -11,10 +11,12 @@ const NavBar = (props) => {
                 </div>
                 <ul>
                     <li>
-                        <button className={classes.loginBtn} href="">Login</button>
+                        {/*<button className={classes.studentBtn} href="">Add New Student</button>*/}
+                        <a href="" className={classes.student}>Add New Student</a>
                     </li>
                     <li>
-                        <button className={classes.registerBtn} href="">Register</button>
+                        {/*<button className={classes.logoutBtn} href="">Logout</button>*/}
+                        <a href="" className={classes.logout}>Logout</a>
                     </li>
                 </ul>
             </nav>
